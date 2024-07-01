@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    padding: auto;
+    margin: 0;
+    font-family: Nunito;
+}
+
+.osite{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(127, 255, 165);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+nav .logo{
+    padding: 15px;
+    font-family: Permanent Marker;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    font-weight: 1000;
+    background-color: rgb(93, 192, 124);
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.seção{
+    width: 80%;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.seção h3{
+    width: 100%;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+
+.seção span, .seção pre{
+    width: 50%;
+    font-weight: 500;
+    font-size: large;
+}
+
+.seção img{
+    width: 200px;
+}
+
+.seção img:hover{
+    width: 600px;
+}
+
+.imgs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+p{
+    font-weight: 1000;
+}
+
+#retangulo {
+    height: 100px;
+    width: 200px;
+    background: blue;
+}
+
+.sec_ferr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#q1_area button, #q2_area button, #q1_hip button, #q2_hip button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#q1_area button:hover, #q2_area button:hover, #q1_hip button:hover, #q2_hip button:hover {
+    background-color: #e0e0e0;
+}
+
+#q1_area button.correta, #q2_area button.correta, #q1_hip button.correta, #q2_hip button.correta {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+#q1_area button.errada, #q2_area button.errada, #q1_hip button.errada, #q2_hip button.errada {
+    background-color: #ffb8b8;
+    border-color: #ff6b6b;
+}
+
+#q1_area button.disabled, #q2_area button.disabled, #q1_hip button.disabled, #q2_hip button.disabled {
+    cursor: default;
+    opacity: 0.6;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer p {
+    margin: 5px 0; 
+}
+
+footer strong {
+    font-size: 1.2em; 
+}
